@@ -9,6 +9,7 @@
 - [marketplace-sdk](https://github.com/hypercerts-org/marketplace-sdk) - fork our the [Looksrare SDK] to support the hypercerts marketplace (built on Looksrare)
 - [hypercerts-indexer](https://github.com/hypercerts-org/hypercerts-indexer) - our custom indexer that feeds into our database for rapid access to data across the hypercerts ecosystem
 - [hypercerts-api](https://github.com/hypercerts-org/hypercerts-api) - OpenAPI and GraphQL instance for querying our database and storing metadata, allowlists and images
+- [ecocerts](https://github.com/hypercerts-org/ecocerts) - discussion and development of hypercerts for ecological impact
 
 ## Contributing
 
