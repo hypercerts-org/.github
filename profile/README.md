@@ -15,6 +15,8 @@
 
 Our repositories allow for the creation of issues and provide guidance on how to create them
 
+- [HIPs](https://github.com/hypercerts-org/HIPs) - hypercerts improvement proposals, updates, and discussion 
+
 ## Contact us
 
 - [Twitter](https://x.com/hypercerts)
