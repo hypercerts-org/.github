@@ -15,7 +15,8 @@
 
 Our repositories allow for the creation of issues and provide guidance on how to create them
 
-- [HIPs](https://github.com/hypercerts-org/HIPs) - hypercerts improvement proposals, updates, and discussion 
+- [Roadmap](https://miro.com/app/board/uXjVJKSBAVQ=/) - v0.2 development, experiments, and relevant events
+- [HIPs](https://github.com/hypercerts-org/HIPs/discussions/) - hypercerts improvement proposals, updates, and discussion 
 
 ## Contact us
 
