@@ -1,6 +1,24 @@
 # hypercerts github org
 
-## Repositories
+We are currently working on Hypercerts v0.2, an exciting next
+generation architecture which will bring much greater scalability and
+flexibility.  Here you can find both the new v0.2 repositories and the
+original ones.
+
+## v0.2 Repositories
+
+v0.2 is adding [ATProtocol](https://atproto.com/) to provide an
+offchain data layer, so we have several new repositories relating to
+work in that area.
+
+- [hypercerts-lexicon](https://github.com/hypercerts-org/hypercerts-lexicon) - the ATProto lexicons (data schema) for Hypercerts v0.2.
+- [atproto](https://github.com/hypercerts-org/atproto/) - a friendly fork of ATProto's main monorepo, containing Hypercerts customizations and experiments, in particular:
+  - [`packages/sds`](https://github.com/hypercerts-org/atproto/tree/dev/packages/sds) - SDS (Shared Data Server) - an extended version of the PDS which supports shared access to repositories
+  - [`packages/sds-demo`](https://github.com/hypercerts-org/atproto/tree/dev/packages/sds-demo) - a demo frontend for trying out the SDS
+- [Quickstart scaffold app for v0.2](https://github.com/hypercerts-org/hypercerts-scaffold-atproto)
+- [code](https://github.com/hypercerts-org/pdsls) for [sdsls.dev](https://sdsls.dev) - a fork of [pdsls.dev](https://pdsls.dev) which supports writing to shared repos in SDS instances
+
+## v0.1 Repositories
 
 - [hypercerts-protocol](https://github.com/hypercerts-org/hypercerts-protocol) - the hypercerts protocol and the contracts NPM package
 - [hypercerts-org](https://github.com/hypercerts-org/hypercerts-org) - the main hypercerts.org website including documentation
