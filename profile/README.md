@@ -1,10 +1,11 @@
-# Hypercerts
+# Hypercerts Github Org
 
 Hypercerts are an open, composable primitive for representing real-world work as durable, inspectable digital records that others can evaluate, fund, and build on over time.
 
 They are designed to support collective funding and coordination across very different domains—such as open-source software, research, public-interest infrastructure, and environmental stewardship—without relying on a single platform, metric, or centralized authority.
 
-## What problem does this solve?
+<details>
+  <summary><strong>What problem does this solve?</strong></summary>
 
 In many domains, valuable work produces public or shared benefits, but information about that work—what was done, by whom, with what evidence, and how it was evaluated—is fragmented, ephemeral, or locked inside platforms.
 
@@ -14,8 +15,11 @@ This makes it difficult to:
 - reuse prior information rather than recreating it from scratch.
 
 Hypercerts address this by providing a shared, open data model for describing work and its evaluation as first-class, linkable records.
+</details>
 
-## What are hypercerts?
+<details>
+  <summary><strong>What are hypercerts?</strong></summary>
+
 
 At a high level, a hypercert:
 - describes **an activity or scope of work**,
@@ -26,8 +30,10 @@ At a high level, a hypercert:
 Hypercerts are not a marketplace or a single application. They are a protocol-level building block that can be used by many different tools, communities, and funding mechanisms.
 
 The design emphasizes: Composability, reuse, plural evaluation, and durability of records.
+</details>
 
-## Architecture (high level)
+<details>
+  <summary><strong>Architecture (high level)</strong></summary>
 
 Hypercerts are designed to span both social and financial layers:
 
@@ -42,8 +48,10 @@ Hypercerts are designed to span both social and financial layers:
   - Used when financial coordination or incentives are required
 
 This separation allows hypercerts to be useful even without tokenization, while still supporting onchain mechanisms where appropriate.
+</details>
 
-## Who is this for?
+<details>
+  <summary><strong>Who is this for?</strong></summary>
 
 Hypercerts are intended for:
 - builders of funding, evaluation, or coordination tools
@@ -54,7 +62,9 @@ Hypercerts are intended for:
 
 You do not need to adopt the entire stack to use hypercerts—individual components can be reused independently.
 
-# Hypercerts Github Org
+</details>
+
+# Repositories
 
 We are currently working on Hypercerts v0.2, an exciting next generation architecture which will bring much greater scalability and flexibility.  Here you can find both the new v0.2 repositories and the original ones.
 
@@ -82,20 +92,18 @@ work in that area.
 - [hypercerts-api](https://github.com/hypercerts-org/hypercerts-api) - OpenAPI and GraphQL instance for querying our database and storing metadata, allowlists and images
 - [ecocerts](https://github.com/hypercerts-org/ecocerts) - discussion and development of hypercerts for ecological impact
 
-## Contributing
-
-Please see:
-- `CONTRIBUTING.md` for how to get involved
-- `CODE_OF_CONDUCT.md` for community standards
-
 # Further Resources
 
+**Contributing**
+- [CONTRIBUTING.md](./CONTRIBUTING.md) for how to get involved
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards
+
+**General information**
 - Website: https://hypercerts.org  
 - Documentation: https://docs.hypercerts.org
 - Blog: https://hypercerts.leaflet.pub/
 
-## Contact us
-
+**Contact us**
 - [Bluesky](https://bsky.app/profile/hypercerts.org)
 - [Twitter](https://x.com/hypercerts)
 - [Telegram Announcements](https://t.me/+YF9AYb6zCv1mNDJi)
