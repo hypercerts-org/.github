@@ -6,8 +6,6 @@ Hypercerts are open infrastructure for representing work, evidence, and evaluati
 
 This document explains how to get involved.
 
----
-
 ## Who can contribute?
 
 We welcome contributions from:
@@ -17,8 +15,6 @@ We welcome contributions from:
 - documentation and tooling contributors
 
 You do not need prior involvement with the project to contribute.
-
----
 
 ## Types of contributions
 
@@ -39,8 +35,6 @@ You do not need prior involvement with the project to contribute.
 - identifying ambiguities or missing concepts
 - writing examples or explanatory material
 - proposing alternative designs or extensions
-
----
 
 ## How to contribute
 
@@ -65,8 +59,6 @@ For concrete contributions:
 - Feedback and iteration are part of the process
 - Not all proposals will be accepted, but all good-faith contributions will be considered
 
----
-
 ## Evaluation contributions
 
 Some parts of the hypercerts ecosystem explicitly involve evaluation and judgment.
@@ -84,21 +76,15 @@ please clearly state:
 
 This helps others reuse and interpret evaluations appropriately.
 
----
-
 ## Community standards
 
 All contributors are expected to follow the project’s Code of Conduct.
 
-See `CODE_OF_CONDUCT.md` for details.
-
----
+See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for details.
 
 ## Licensing
 
 By contributing to this repository, you agree that your contributions will be licensed under the project’s open-source license, as specified in the `LICENSE` file.
-
----
 
 ## Questions?
 
