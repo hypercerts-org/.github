@@ -1,8 +1,6 @@
 # Hypercerts Github Org
 
-Hypercerts are an open, composable primitive for representing real-world work as durable, inspectable digital records that others can evaluate, fund, and build on over time.
-
-They are designed to support collective funding and coordination across very different domains—such as open-source software, research, public-interest infrastructure, and environmental stewardship—without relying on a single platform, metric, or centralized authority.
+Hypercerts are an open, composable primitive for representing real-world work as durable, inspectable digital records that others can evaluate, fund, and build on over time. They are designed to support collective funding and coordination across very different domains—such as open-source software, research, public-interest infrastructure, and environmental stewardship—without relying on a single platform, metric, or centralized authority.
 
 <details>
   <summary><strong>What problem does this solve?</strong></summary>
