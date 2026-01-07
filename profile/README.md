@@ -106,3 +106,10 @@ work in that area.
 - [Twitter](https://x.com/hypercerts)
 - [Telegram Announcements](https://t.me/+YF9AYb6zCv1mNDJi)
 - [Telegram Support](https://t.me/+FODiLtCV2TgwNzRi)
+
+# Supporters
+The hypercerts project is supported by a range of organizations and individuals who believe in building open, interoperable infrastructure for recognizing and coordinating around real-world work. These include: Protocol Labs, Ma Earth, Optimism, Octant, Gitcoin, GainForest, Funding the Commons, and GitBook.
+
+Their support—through funding, collaboration, feedback, and shared experimentation—helps advance the development of hypercerts as a public-good primitive. Support does not imply endorsement of specific design decisions or applications.
+
+We’re grateful to all supporters who contribute time, resources, and trust to this ongoing effort.
