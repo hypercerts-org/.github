@@ -98,7 +98,7 @@ work in that area.
 
 **General information**
 - Website: https://hypercerts.org  
-- Documentation: https://docs.hypercerts.org
+- Documentation: [https://hypercerts.gitbook.io](https://hypercerts.gitbook.io/hypercerts-docs/)
 - Blog: https://hypercerts.leaflet.pub/
 
 **Contact us**
