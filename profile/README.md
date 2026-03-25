@@ -1,6 +1,8 @@
-# Hypercerts Github Org
+# Hypercerts
 
-Hypercerts are an open, composable primitive for representing real-world work as durable, inspectable digital records that others can evaluate, fund, and build on over time. They are designed to support collective funding and coordination across very different domains—such as open-source software, research, public-interest infrastructure, and environmental stewardship—without relying on a single platform, metric, or centralized authority.
+Hypercerts create shared context—evidence, expert input, and community trust—for better resource allocation. At its core, a hypercert is a living digital record of impactful work: what was done or is planned, by whom, when, and where. As evidence and evaluations accumulate over time, it becomes a shared, evolving picture of work and its value.
+
+Today's impact funding systems are fragmented and inefficient. Hypercerts address this with a simple pattern—record, evaluate, fund—that works across climate and regeneration, open-source software, research and development, and community programs. Built on the AT Protocol as open infrastructure, records are portable, referenceable, and not locked into any single platform.
 
 <details>
   <summary><strong>What problem does this solve?</strong></summary>
@@ -18,7 +20,6 @@ Hypercerts address this by providing a shared, open data model for describing wo
 <details>
   <summary><strong>What are hypercerts?</strong></summary>
 
-
 At a high level, a hypercert:
 - describes **an activity or scope of work**,
 - links to **evidence** and contextual data,
@@ -27,17 +28,17 @@ At a high level, a hypercert:
 
 Hypercerts are not a marketplace or a single application. They are a protocol-level building block that can be used by many different tools, communities, and funding mechanisms.
 
-The design emphasizes: Composability, reuse, plural evaluation, and durability of records.
+The design emphasizes: composability, reuse, plural evaluation, and durability of records.
 </details>
 
 <details>
-  <summary><strong>Architecture (high level)</strong></summary>
+  <summary><strong>Architecture</strong></summary>
 
-Hypercerts are designed to span both social and financial layers:
+Hypercerts span both social and financial layers:
 
 - **Offchain / social data**
   - Records for activities, evidence, evaluations, and relationships
-  - Designed to live in open, federated data systems (e.g. ATProto)
+  - Built on [ATProto](https://atproto.com/) as an open data layer
   - Portable identities and durable references
 
 - **Onchain (optional)**
@@ -59,57 +60,58 @@ Hypercerts are intended for:
 - funders experimenting with pluralistic or retrospective allocation models
 
 You do not need to adopt the entire stack to use hypercerts—individual components can be reused independently.
-
 </details>
 
 # Repositories
 
-We are currently working on Hypercerts v0.2, an exciting next generation architecture which will bring much greater scalability and flexibility.  Here you can find both the new v0.2 repositories and the original ones.
+## Active repositories
 
-## v0.2 Repositories
+### Protocol & data layer
 
-v0.2 is adding [ATProtocol](https://atproto.com/) to provide an
-offchain data layer, so we have several new repositories relating to
-work in that area.
+- [hypercerts-lexicon](https://github.com/hypercerts-org/hypercerts-lexicon) — ATProto lexicons (data schema) for hypercerts
+- [hyperindex](https://github.com/hypercerts-org/hyperindex) — query hypercert data across the network
+- [ePDS](https://github.com/hypercerts-org/ePDS) — extended Personal Data Server for hypercerts
+- [certified-group-service](https://github.com/hypercerts-org/certified-group-service) — group coordination service for managing a PDS
+- [documentation](https://github.com/hypercerts-org/documentation) — [docs.hypercerts.org](https://docs.hypercerts.org)
 
-- [hypercerts-lexicon](https://github.com/hypercerts-org/hypercerts-lexicon) - the ATProto lexicons (data schema) for Hypercerts v0.2.
-- [atproto](https://github.com/hypercerts-org/atproto/) - a friendly fork of ATProto's main monorepo, containing Hypercerts customizations and experiments, in particular:
-  - [`packages/sds`](https://github.com/hypercerts-org/atproto/tree/dev/packages/sds) - SDS (Shared Data Server) - an extended version of the PDS which supports shared access to repositories
-  - [`packages/sds-demo`](https://github.com/hypercerts-org/atproto/tree/dev/packages/sds-demo) - a demo frontend for trying out the SDS
-- [Quickstart scaffold app for v0.2](https://github.com/hypercerts-org/hypercerts-scaffold-atproto)
-- [code](https://github.com/hypercerts-org/pdsls) for [sdsls.dev](https://sdsls.dev) - a fork of [pdsls.dev](https://pdsls.dev) which supports writing to shared repos in SDS instances
+### Applications & tools
 
-## v0.1 Repositories
+- [hypercerts-org](https://github.com/hypercerts-org/hypercerts-org) — the [hypercerts.org](https://hypercerts.org) website
+- [certified-app](https://github.com/hypercerts-org/certified-app) — portable impact profiles at [certified.app](https://certified.app)
+- [hypercerts-cli](https://github.com/GainForest/hypercerts-cli) — create and manage hypercerts programmatically
+- [hypercerts-scaffold-atproto](https://github.com/hypercerts-org/hypercerts-scaffold-atproto) — quickstart scaffold app for building on hypercerts
 
-- [hypercerts-protocol](https://github.com/hypercerts-org/hypercerts-protocol) - the hypercerts protocol and the contracts NPM package
-- [hypercerts-org](https://github.com/hypercerts-org/hypercerts-org) - the main hypercerts.org website including documentation
-- [hypercerts-app](https://github.com/hypercerts-org/hypercerts-app) - the main app.hypercerts.org application
-- [hypercerts-sdk](https://github.com/hypercerts-org/hypercerts-sdk) - SDK with contract methods, helpers and other tooling to support developing on the hypercerts protocol
-- [marketplace-sdk](https://github.com/hypercerts-org/marketplace-sdk) - fork our the [Looksrare SDK] to support the hypercerts marketplace (built on Looksrare)
-- [hypercerts-indexer](https://github.com/hypercerts-org/hypercerts-indexer) - our custom indexer that feeds into our database for rapid access to data across the hypercerts ecosystem
-- [hypercerts-api](https://github.com/hypercerts-org/hypercerts-api) - OpenAPI and GraphQL instance for querying our database and storing metadata, allowlists and images
-- [ecocerts](https://github.com/hypercerts-org/ecocerts) - discussion and development of hypercerts for ecological impact
+## Legacy repositories (v0.1)
 
-# Further Resources
+- [hypercerts-protocol](https://github.com/hypercerts-org/hypercerts-protocol) — smart contracts and the contracts NPM package
+- [hypercerts-app](https://github.com/hypercerts-org/hypercerts-app) — the original app.hypercerts.org application
+- [hypercerts-sdk](https://github.com/hypercerts-org/hypercerts-sdk) — SDK with contract methods, helpers, and tooling
+- [marketplace-sdk](https://github.com/hypercerts-org/marketplace-sdk) — marketplace SDK (built on Looksrare)
+- [hypercerts-indexer](https://github.com/hypercerts-org/hypercerts-indexer) — custom indexer for rapid data access
+- [hypercerts-api](https://github.com/hypercerts-org/hypercerts-api) — OpenAPI and GraphQL instance for querying data
+- [ecocerts](https://github.com/hypercerts-org/ecocerts) — discussion and development of hypercerts for ecological impact
+
+# Further resources
 
 **Contributing**
 - [CONTRIBUTING.md](./CONTRIBUTING.md) for how to get involved
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards
 
 **General information**
-- Website: https://hypercerts.org  
+- Website: https://hypercerts.org
 - Documentation: https://docs.hypercerts.org
-- Blog: https://hypercerts.leaflet.pub/
+- Blog: https://hypercerts.org/blog
 
-**Contact us**
+**Contact**
 - [Bluesky](https://bsky.app/profile/hypercerts.org)
 - [Twitter](https://x.com/hypercerts)
-- [Telegram Announcements](https://t.me/+YF9AYb6zCv1mNDJi)
+- [Telegram](https://t.me/+YF9AYb6zCv1mNDJi)
 - [Telegram Support](https://t.me/+FODiLtCV2TgwNzRi)
 
 # Supporters
-The hypercerts project is supported by a range of organizations and individuals who believe in building open, interoperable infrastructure for recognizing and coordinating around real-world work. These include: Protocol Labs, Ma Earth, Optimism, Octant, Gitcoin, GainForest, Funding the Commons, and GitBook.
+
+The hypercerts project is supported by organizations and individuals who believe in building open, interoperable infrastructure for recognizing and coordinating around real-world work. These include: Protocol Labs, Ma Earth, GainForest, Optimism, Octant, Gitcoin, Silvi, Regen Foundation, and Funding the Commons.
 
 Their support—through funding, collaboration, feedback, and shared experimentation—helps advance the development of hypercerts as a public-good primitive. Support does not imply endorsement of specific design decisions or applications.
 
-We’re grateful to all supporters who contribute time, resources, and trust to this ongoing effort.
+We're grateful to all supporters who contribute time, resources, and trust to this ongoing effort.
