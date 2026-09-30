@@ -78,8 +78,6 @@ You do not need to adopt the entire stack to use hypercerts—individual compone
 
 - [hypercerts-org](https://github.com/hypercerts-org/hypercerts-org) — the [hypercerts.org](https://hypercerts.org) website
 - [certified-app](https://github.com/hypercerts-org/certified-app) — portable impact profiles at [certified.app](https://certified.app)
-- [hypercerts-cli](https://github.com/GainForest/hypercerts-cli) — create and manage hypercerts programmatically
-- [hypercerts-scaffold-atproto](https://github.com/hypercerts-org/hypercerts-scaffold-atproto) — quickstart scaffold app for building on hypercerts
 
 ## Legacy repositories (v0.1)
 
