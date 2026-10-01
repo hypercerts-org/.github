@@ -1,22 +1,27 @@
 # Hypercerts
 
-Hypercerts is an open protocol for describing work, evidence, evaluations, and funding on [AT Protocol](https://atproto.com/). It gives projects, evaluators, communities, and funders a shared language for recognizing valuable work and making better funding decisions.
+**Open infrastructure for funding valuable work.**
 
-A hypercert is a living, verifiable record of impact work: who contributed, what they did, when, and in what scope. Linked evidence, measurements, contributions, and independent evaluations enrich that record over time. Records live in AT Protocol repositories controlled by their authors, so compatible applications can reuse them without locking the information into one platform.
+Hypercerts is an open protocol to connect projects with those who review them, vouch for them, and back them, creating the trust it takes to fund what matters.
 
-[Certified](https://certified.app) is an application built on the Hypercerts Protocol. It lets people publish activities, group them into projects, organize as groups, and recognize each other's work through endorsements. Hypercerts is the shared protocol, not a single application or marketplace.
+Projects publish their work, updates, and evidence as records they control. Others add endorsements, evaluations, and funding records, each attributed to whoever provided it. Built on [AT Protocol](https://atproto.com/), these records can be reused across compatible applications, so the next funding decision can build on what is already known instead of starting from scratch.
+
+A hypercert, or activity claim, describes planned, ongoing, or completed work: who contributed, what they did, when, and where. It is the publisher's account of the work, not proof of impact on its own. Evidence and independent assessments help others judge it over time.
 
 ## Start with the documentation
 
-**[docs.hypercerts.org](https://docs.hypercerts.org/)** is the main entry point for the current protocol, integration guides, tools, and service references.
+**[docs.hypercerts.org](https://docs.hypercerts.org/)** explains the protocol and the stack in four sections:
 
-- [What are Hypercerts?](https://docs.hypercerts.org/core-concepts/what-is-hypercerts): the record structure and how it is used.
-- [Quickstart](https://docs.hypercerts.org/getting-started/quickstart): create your first hypercert.
-- [Building on Hypercerts](https://docs.hypercerts.org/getting-started/building-on-hypercerts): integration patterns for platforms and tools.
-- [Core data model](https://docs.hypercerts.org/core-concepts/hypercerts-core-data-model) and [lexicon reference](https://docs.hypercerts.org/lexicons/introduction-to-lexicons): record types, schemas, and relationships.
-- [Architecture overview](https://docs.hypercerts.org/architecture/overview) and [Certified services](https://docs.hypercerts.org/reference/certified-services): how the infrastructure fits together and where to connect.
+- [Guide](https://docs.hypercerts.org/guide): how work, evidence, assessments, trust, and funding connect across applications.
+- [Client Integration](https://docs.hypercerts.org/client-integration): where your application fits, account setup, and what you can build with today.
+- [Reference](https://docs.hypercerts.org/reference): lexicons, services and tooling, and the API and SDK as they are released.
+- [Changes](https://docs.hypercerts.org/changes): protocol releases and component versions.
 
-On-chain anchoring and tokenization for the AT Protocol-based protocol are planned, not currently implemented. Hypercerts records are not tokens. See [Funding & Value Flow](https://docs.hypercerts.org/core-concepts/funding-and-value-flow) for the current design and status.
+New to the project? Start with [hypercerts.org](https://hypercerts.org) for the high-level story, then follow the Guide. For schemas and connection details, see the [lexicon inventory](https://docs.hypercerts.org/reference/lexicon-inventory) and [services overview](https://docs.hypercerts.org/reference/services).
+
+## Certified accounts
+
+[certified.app](https://certified.app) is where people create and manage their Certified account: their profile, connected applications, groups, and endorsements. The account is an AT Protocol account, independent of any one application. Your application sits beside certified.app as another client of the same account. See [certified.app in the reference](https://docs.hypercerts.org/reference/services/certified-app).
 
 ## Current repositories
 
@@ -25,17 +30,18 @@ On-chain anchoring and tokenization for the AT Protocol-based protocol are plann
 | Repository | Purpose | Documentation |
 | --- | --- | --- |
 | [hypercerts-lexicon](https://github.com/hypercerts-org/hypercerts-lexicon) | Hypercerts and Certified lexicons, generated TypeScript types, and validators | [Lexicons](https://docs.hypercerts.org/lexicons/introduction-to-lexicons) |
-| [ePDS](https://github.com/hypercerts-org/ePDS) | Extended Personal Data Server with email-first account creation and authentication | [ePDS](https://docs.hypercerts.org/architecture/epds) |
-| [certified-group-service](https://github.com/hypercerts-org/certified-group-service) | Role-based governance and shared management of a group's AT Protocol repository | [CGS](https://docs.hypercerts.org/architecture/certified-group-service) |
-| [hypercerts-relay](https://github.com/hypercerts-org/hypercerts-relay) | Relay and Jetstream infrastructure for streaming repository events | [Relay and Jetstream](https://docs.hypercerts.org/tools/hypercerts-relay) |
-| [hypercerts-feed-service](https://github.com/hypercerts-org/hypercerts-feed-service) | Read-only, viewer-scoped feeds from indexed Hypercerts data | [Feed Service](https://docs.hypercerts.org/tools/hypercerts-feed-service) |
+| [ePDS](https://github.com/hypercerts-org/ePDS) | Software behind the running Certified PDSs and email sign-in today | [Certified PDSs](https://docs.hypercerts.org/reference/services/certified-pdss) |
+| [certified-group-service](https://github.com/hypercerts-org/certified-group-service) | Role-based governance and shared management of a group's AT Protocol repository | [CGS](https://docs.hypercerts.org/reference/services/certified-group-service) |
+| [hypercerts-relay](https://github.com/hypercerts-org/hypercerts-relay) | Relay and Jetstream infrastructure for streaming repository events | [Relay and Jetstream](https://docs.hypercerts.org/reference/services/relay) |
+| [happyview](https://github.com/hypercerts-org/happyview) | Lexicon-driven AppView underpinning the indexer and Hypercerts API, under development | [Indexer and Hypercerts API](https://docs.hypercerts.org/reference/services/indexer) |
+| [orglabeler](https://github.com/hypercerts-org/orglabeler) | Signed quality labels for Certified organization data | [Labelers](https://docs.hypercerts.org/reference/services/labelers) |
+| [hypercerts-feed-service](https://github.com/hypercerts-org/hypercerts-feed-service) | Read-only, viewer-scoped feeds from indexed Hypercerts data | [Feed Service](https://docs.hypercerts.org/reference/services/feed-service) |
 
-The documentation also covers [Hyperindex](https://docs.hypercerts.org/tools/hyperindex), the ecosystem indexer maintained in [gainforest/hyperindex](https://github.com/gainforest/hyperindex). The former `hypercerts-org/hyperindex` repository is archived.
+The [Hypercerts API](https://docs.hypercerts.org/reference/xrpc-api), [SDK](https://docs.hypercerts.org/reference/sdk), and [Entryway](https://docs.hypercerts.org/reference/services/entryway) are under development. Their reference pages describe their status and what to use today; they are not released integration dependencies.
 
-### Applications and developer resources
+### Applications and documentation
 
-- [certified-app](https://github.com/hypercerts-org/certified-app): the application at [certified.app](https://certified.app).
-- [skills](https://github.com/hypercerts-org/skills): [agent skills](https://docs.hypercerts.org/tools/hypercerts-agent-skills) for working across the Hypercerts stack.
+- [certified-app](https://github.com/hypercerts-org/certified-app): Certified account, profile, group, endorsement, and connected-application management.
 - [documentation](https://github.com/hypercerts-org/documentation): the source for [docs.hypercerts.org](https://docs.hypercerts.org/).
 - [hypercerts-org](https://github.com/hypercerts-org/hypercerts-org): the [hypercerts.org](https://hypercerts.org) website.
 
