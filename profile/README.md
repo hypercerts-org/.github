@@ -34,6 +34,11 @@ We're grateful to all supporters who contribute time, resources, and trust to th
 
 These repositories are no longer maintained. All are archived except hypercerts-api and hypercerts-indexer, which hold the code behind the v1 API that still runs at api.hypercerts.org. Hypercerts has reached v2, and the v1 app has been retired: see [hypercerts.org/v1-retired](https://hypercerts.org/v1-retired).
 
+**Early AT Protocol work**
+
+- [hyperindex](https://github.com/hypercerts-org/hyperindex): a Go AT Protocol indexer with a GraphQL API, formerly Hypergoat.
+- [hypercerts-scaffold-atproto](https://github.com/hypercerts-org/hypercerts-scaffold-atproto): a Next.js scaffold for hypercerts on AT Protocol.
+
 **Hypercerts v1**
 
 - [hypercerts-protocol](https://github.com/hypercerts-org/hypercerts-protocol): the v1 minting and marketplace contracts, with their deployment addresses and audits.
@@ -47,8 +52,3 @@ These repositories are no longer maintained. All are archived except hypercerts-
 - [hyperboards-v1](https://github.com/hypercerts-org/hyperboards-v1): the first Hyperboards. The current one is at [hyperboards.org](https://www.hyperboards.org).
 - [hypercerts-attestor-registry](https://github.com/hypercerts-org/hypercerts-attestor-registry): a public registry of trusted attestors.
 - [hypercerts](https://github.com/hypercerts-org/hypercerts): the original monorepo. [hypercerts-v1](https://github.com/hypercerts-org/hypercerts-v1) is a backup copy of it.
-
-**Early AT Protocol work**
-
-- [hyperindex](https://github.com/hypercerts-org/hyperindex): a Go AT Protocol indexer with a GraphQL API, formerly Hypergoat.
-- [hypercerts-scaffold-atproto](https://github.com/hypercerts-org/hypercerts-scaffold-atproto): a Next.js scaffold for hypercerts on AT Protocol.
