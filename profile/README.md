@@ -29,3 +29,26 @@ The hypercerts project is supported by organizations and individuals who believe
 Their support, through funding, collaboration, feedback, and shared experimentation, helps advance the development of hypercerts as a public-good primitive. Support does not imply endorsement of specific design decisions or applications.
 
 We're grateful to all supporters who contribute time, resources, and trust to this ongoing effort.
+
+## Legacy
+
+These repositories are no longer maintained. All are archived except hypercerts-api and hypercerts-indexer, which hold the code behind the v1 API that still runs at api.hypercerts.org. Hypercerts has reached v2, and the v1 app has been retired: see [hypercerts.org/v1-retired](https://hypercerts.org/v1-retired).
+
+**Hypercerts v1**
+
+- [hypercerts-protocol](https://github.com/hypercerts-org/hypercerts-protocol): the v1 minting and marketplace contracts, with their deployment addresses and audits.
+- [protocol-periphery](https://github.com/hypercerts-org/protocol-periphery): periphery contracts for the v1 protocol.
+- [marketplace-sdk](https://github.com/hypercerts-org/marketplace-sdk): TypeScript SDK for the v1 marketplace contracts, forked from LooksRare's.
+- [hypercerts-sdk](https://github.com/hypercerts-org/hypercerts-sdk): the v1 SDK, `@hypercerts-org/sdk` up to version 2, and an early AT Protocol SDK.
+- [hypercerts-api](https://github.com/hypercerts-org/hypercerts-api): the v1 API.
+- [hypercerts-indexer](https://github.com/hypercerts-org/hypercerts-indexer): the indexer behind the v1 API.
+- [hypercerts-chainsauce](https://github.com/hypercerts-org/hypercerts-chainsauce): fork of chainsauce, used by the v1 indexer.
+- [hypercerts-template](https://github.com/hypercerts-org/hypercerts-template): a starter for building a hypercerts platform, forked from VoiceDeck.
+- [hyperboards-v1](https://github.com/hypercerts-org/hyperboards-v1): the first Hyperboards. The current one is at [hyperboards.org](https://www.hyperboards.org).
+- [hypercerts-attestor-registry](https://github.com/hypercerts-org/hypercerts-attestor-registry): a public registry of trusted attestors.
+- [hypercerts](https://github.com/hypercerts-org/hypercerts): the original monorepo. [hypercerts-v1](https://github.com/hypercerts-org/hypercerts-v1) is a backup copy of it.
+
+**Early AT Protocol work**
+
+- [hyperindex](https://github.com/hypercerts-org/hyperindex): a Go AT Protocol indexer with a GraphQL API, formerly Hypergoat.
+- [hypercerts-scaffold-atproto](https://github.com/hypercerts-org/hypercerts-scaffold-atproto): a Next.js scaffold for hypercerts on AT Protocol.
